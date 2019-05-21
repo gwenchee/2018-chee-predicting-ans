@@ -28,12 +28,14 @@
 
 \begin{frame}
     \frametitle{Burn up of Spent Nuclear Fuel}
+    In 1990, Burnup = 33.215 GWDt per MTU
+
     \begin{figure}[htbp!]
         \begin{center}
-        \includegraphics[height=5cm]{../figures/burn_up_real}
+        \includegraphics[height=5cm]{../figures/burnup_udb}
         \end{center}
-        \caption{The average cumulative burnup for U.S. nuclear reactors
-        from 1968 to 2013 \cite{eia_spent_2015}.}
+        \caption{The average burnup for U.S. nuclear reactors
+        from 1968 to 2013 \cite{peterson_unf_2017}.}
         \end{figure}
     \end{frame}
 
@@ -41,10 +43,10 @@
     \frametitle{Cyclus vs. Unified Database: Major Isotopic Composition}
     \begin{figure}[htbp!]
         \begin{center}
-          \includegraphics[height=6cm]{../figures/absolute_diff_2000}
+          \includegraphics[height=6cm]{../figures/absolute_diff_1990}
         \end{center}
               \caption{The absolute difference between cumulative spent fuel mass calculated by 
-              Unified Database and \textsc{Cyclus} for each isotope at year 2000. Positive difference indicates \textsc{Cyclus}
+              Unified Database and \textsc{Cyclus} for each isotope at year 1990. Positive difference indicates \textsc{Cyclus}
               mass estimate is larger.}
         \label{fig:totalmass}
       \end{figure}
@@ -54,10 +56,22 @@
     \frametitle{Cyclus vs. Unified Database: Major Isotopic Composition}
     \begin{figure}[htbp!]
         \begin{center}
-          \includegraphics[height=6cm]{../figures/absolute_diff_2000_annotated}
+          \includegraphics[height=6cm]{../figures/absolute_diff_1990_annotated}
         \end{center}
               \caption{The absolute difference between cumulative spent fuel mass calculated by 
               Unified Database and \textsc{Cyclus} for each isotope at year 2000. The boxed isotopes are the major decay heat contributors.}
         \label{fig:totalmass}
       \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Cyclus vs. Unified Database: Decay Heat Contribution}
+  \begin{figure}[htbp!]
+      \begin{center}
+        \includegraphics[height=6cm]{../figures/absolute_diff_1990_decayheat}
+      \end{center}
+            \caption{The absolute difference between decay heat calculated by 
+            Unified Database and \textsc{Cyclus} for each significant isotope at year 2000. 
+            }
+    \end{figure}
 \end{frame}
